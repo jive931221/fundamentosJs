@@ -12,7 +12,7 @@ body{
 }
 
 header{
-background-color:black ;
+background-color:white ;
 
 }
 .Hero{
@@ -24,12 +24,11 @@ background-color:black ;
 
 H1{
     text-align:center;
-    color: white;
-   
+    color: black;
     margin-bottom:auto;
 }
 h3{
-    color:white;
+    color: black;
     text-align: center;
 }
 .list-group{
@@ -38,29 +37,6 @@ h3{
     .list-group nav a{
         margin-bottom:1em;
     }
-
-    .navegador{
-        display: flex;
-        justify-content:right;
-    }
-    .navegador a{
-        text-decoration: none;
-        color:white;
-        font-weight: bold;
-    }
-    .navegador a{
-        display:black;
-        content:"";
-        width: 0%;
-        background:white;
-        height:5px;
-        top:-5px;
-        position:absolute;
-        transition: 0.3s ease;
-    }
-    .navegador a:hover:before{
-        width: 100%;
-
 
 
 
